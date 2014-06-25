@@ -30,6 +30,7 @@ public class TestHelper {
 
 		order.setCustomer(customer);
 		order.setBillingAddress(billingAddress);
+		order.setShippingAddress(billingAddress);
 		order.setIpAddress("100.200.30.42");
 
 		return order;
